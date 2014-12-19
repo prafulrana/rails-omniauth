@@ -8,7 +8,7 @@ default: &default
   adapter: mongoid
   pool: 5
   timeout: 5000
-  host: "<%= ENV['DB_HOST']%>":27017
+  host: "<%= ENV['DB_HOST']%>"
   user: "<%= ENV['DB_USER']%>" 
   pass: "<%= ENV['DB_PASS']%>" 
 
