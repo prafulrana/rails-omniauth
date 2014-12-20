@@ -9,8 +9,8 @@ default: &default
   pool: 5
   timeout: 5000
   host: "<%= ENV['DB_HOST']%>"
-  user: "<%= ENV['DB_USER']%>" 
-  pass: "<%= ENV['DB_PASS']%>" 
+  username: "<%= ENV['DB_USER']%>" 
+  password: "<%= ENV['DB_PASS']%>" 
 
 development:
   <<: *default
